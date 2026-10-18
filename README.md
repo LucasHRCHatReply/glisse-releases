@@ -4,10 +4,12 @@ Glisse ajoute une couche de gestes à la barre de titre des fenêtres : deux ou 
 une barre de titre calent la fenêtre (moitié, tiers, agrandie, centrée), la passent en plein écran, la minimisent ou la
 ferment. L'app vit dans la barre des menus (petite main). Aucun compte, aucune licence, aucune télémétrie.
 
-- **Calage** : 2 doigts, glisser à gauche ou à droite = moitié de l'écran ; vers le haut = agrandir ; vers le bas = centrer.
-- **Tiers** : 3 doigts, glisser à gauche, à droite ou vers le haut = tiers gauche, droit ou central.
-- **Fenêtre** : 2 doigts écartés = plein écran ; pincés = minimiser ; 3 doigts pincés = fermer.
-- **Réglable** : une vraie fenêtre à onglets (Gestes, Calage, Général, Mises à jour) pour changer l'action de chaque geste, la sensibilité, la marge et la hauteur de la barre de titre.
+- **Aperçu** : pendant le geste, une affiche près du curseur montre l'écran en miniature avec la zone choisie, et la zone s'éclaire ;
+  la fenêtre y va au relâchement, et revenir au point de départ annule.
+- **Zones** : moitiés, quarts (glissements en diagonale), tiers, deux tiers, huitièmes, agrandir, centrer, plein écran.
+- **Fenêtre** : écarter ou pincer, glisser à 3 doigts : plein écran, minimiser, fermer.
+- **Réglable** : une vraie fenêtre à onglets (Gestes, Calage, Général, Mises à jour) pour changer l'action de chaque geste en images,
+  la sensibilité, la marge et la hauteur de la barre de titre.
 - **Sans conflit** : sous le geste, le défilement et les balayages du système (Mission Control, Spaces) sont retenus ; en dehors
   d'une barre de titre, tout reste au système.
 
