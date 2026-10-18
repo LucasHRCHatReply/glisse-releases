@@ -7,6 +7,7 @@ ferment. L'app vit dans la barre des menus (petite main). Aucun compte, aucune l
 - **Calage** : 2 doigts, glisser à gauche ou à droite = moitié de l'écran ; vers le haut = agrandir ; vers le bas = centrer.
 - **Tiers** : 3 doigts, glisser à gauche, à droite ou vers le haut = tiers gauche, droit ou central.
 - **Fenêtre** : 2 doigts écartés = plein écran ; pincés = minimiser ; 3 doigts pincés = fermer.
+- **Réglable** : une vraie fenêtre à onglets (Gestes, Calage, Général, Mises à jour) pour changer l'action de chaque geste, la sensibilité, la marge et la hauteur de la barre de titre.
 - **Sans conflit** : sous le geste, le défilement et les balayages du système (Mission Control, Spaces) sont retenus ; en dehors
   d'une barre de titre, tout reste au système.
 
@@ -33,7 +34,7 @@ Quittez les autres apps de gestes avant d'essayer.
 
 ## Mettre à jour
 
-Menu de la main › « Vérifier les mises à jour » (Glisse vérifie aussi seule au démarrage, au plus une fois par jour),
+Fenêtre de Glisse (menu de la main › « Ouvrir Glisse… ») › onglet « Mises à jour » (Glisse vérifie aussi seule au démarrage, au plus une fois par jour),
 ou relancer la commande ci-dessus. Les réglages sont conservés.
 
 ## Désinstaller
