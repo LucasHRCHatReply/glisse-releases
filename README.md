@@ -8,8 +8,11 @@ ferment. L'app vit dans la barre des menus (petite main). Aucun compte, aucune l
   la fenêtre y va au relâchement, et revenir au point de départ annule.
 - **Zones** : moitiés, quarts (glissements en diagonale), tiers, deux tiers, huitièmes, agrandir, centrer, plein écran.
 - **Fenêtre** : écarter ou pincer, glisser à 3 doigts : plein écran, minimiser, fermer.
-- **Réglable** : une vraie fenêtre à onglets (Gestes, Calage, Général, Mises à jour) pour changer l'action de chaque geste en images,
-  la sensibilité, la marge et la hauteur de la barre de titre.
+- **Dock** : les mêmes gestes sur l'icône d'une app, dans le Dock.
+- **Groupes** : ⌃⌥G groupe plusieurs fenêtres, les agence et, sous Stage Manager, les garde en groupe réaffichable.
+- **Réglable** : une vraie fenêtre à treize onglets (Fenêtres, Calage, Dock, Groupes, Pendant le geste, Modificateurs, Clavier,
+  Écrans, Exclusions, Général, Diagnostic, Mises à jour, À propos), au clavier avec ⌘1 à ⌘9, pour changer l'action de chaque
+  geste en images, la sensibilité, la marge, les touches, les écrans et les apps exclues.
 - **Sans conflit** : sous le geste, le défilement et les balayages du système (Mission Control, Spaces) sont retenus ; en dehors
   d'une barre de titre, tout reste au système.
 
@@ -41,4 +44,10 @@ ou relancer la commande ci-dessus. Les réglages sont conservés.
 
 ## Désinstaller
 
-`uninstall.sh`, dans le dossier du zip téléchargé depuis la page des Releases.
+`~/Library/Application Support/Glisse/uninstall.sh` (posé par l'installation ; aussi dans le zip des Releases) :
+il retire l'ouverture à la connexion, supprime l'app, retire l'autorisation Accessibilité si le système le permet,
+et demande avant de supprimer les réglages.
+
+## Version
+
+0.6.2. Notes : voir la page des Releases.
