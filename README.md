@@ -50,4 +50,4 @@ et demande avant de supprimer les réglages.
 
 ## Version
 
-0.6.2. Notes : voir la page des Releases.
+0.6.3. Notes : voir la page des Releases.

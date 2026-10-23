@@ -41,4 +41,6 @@ echo "  Glisse $NEW, signature valide, équipe $TEAM : ok  ($(du -h "$WORK/Gliss
 
 step 3 "Installation"
 zsh "$DIR/install.sh" "$DIR/Glisse.app" || fail "l'installation a échoué (voir le message ci-dessus)."
-echo "\nTerminé."
+INST=$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$HOME/Applications/Glisse.app/Contents/Info.plist" 2>/dev/null)
+[[ "$INST" == "$NEW" ]] || fail "version installée relue : « ${INST:-aucune} », attendue $NEW."
+echo "\nTerminé : Glisse $INST est dans ~/Applications (version relue après la copie)."
