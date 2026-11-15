@@ -1,18 +1,18 @@
 # Glisse pour macOS
 
-Glisse ajoute une couche de gestes à la barre de titre des fenêtres : deux ou trois doigts qui glissent ou pincent sur
+Glisse ajoute une couche de gestes à la barre de titre des fenêtres : deux doigts qui glissent ou pincent sur
 une barre de titre calent la fenêtre (moitié, tiers, agrandie, centrée), la passent en plein écran, la minimisent ou la
 ferment. L'app vit dans la barre des menus (petite main). Aucun compte, aucune licence, aucune télémétrie.
 
 - **Aperçu** : pendant le geste, une affiche près du curseur montre l'écran en miniature avec la zone choisie, et la zone s'éclaire ;
   la fenêtre y va au relâchement, et revenir au point de départ annule.
 - **Zones** : moitiés, quarts (glissements en diagonale), tiers, deux tiers, huitièmes, agrandir, centrer, plein écran.
-- **Fenêtre** : écarter ou pincer, glisser à 3 doigts : plein écran, minimiser, fermer.
+- **Fenêtre** : écarter (plein écran), pincer (fermer), glisser vers le bas (réduire) ; les gestes à 3 doigts sont à assigner.
 - **Dock** : les mêmes gestes sur l'icône d'une app, dans le Dock.
 - **Groupes** : ⌃⌥G groupe plusieurs fenêtres, les agence et, sous Stage Manager, les garde en groupe réaffichable.
-- **Réglable** : une vraie fenêtre à treize onglets (Fenêtres, Calage, Dock, Groupes, Pendant le geste, Modificateurs, Clavier,
-  Écrans, Exclusions, Général, Diagnostic, Mises à jour, À propos), au clavier avec ⌘1 à ⌘9, pour changer l'action de chaque
-  geste en images, la sensibilité, la marge, les touches, les écrans et les apps exclues.
+- **Réglable** : une vraie fenêtre à six onglets (Gestes, Retour visuel, Touches, Disposition, Général, Mises à jour), au clavier avec
+  ⌘1 à ⌘6, ouverte sur une scène 3D qui rejoue le geste ; on y change l'action de chaque geste en images, la sensibilité, la marge,
+  les touches, les écrans, les apps exclues, et on lit le taux de réussite réel des 30 derniers jours.
 - **Sans conflit** : sous le geste, le défilement et les balayages du système (Mission Control, Spaces) sont retenus ; en dehors
   d'une barre de titre, tout reste au système.
 
@@ -50,4 +50,4 @@ et demande avant de supprimer les réglages.
 
 ## Version
 
-0.9.0. Notes : voir la page des Releases.
+0.10.0. Notes : voir la page des Releases.
